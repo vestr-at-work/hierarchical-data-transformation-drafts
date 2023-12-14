@@ -1,0 +1,25 @@
+{
+    "@operations": [
+        {
+            "@operation": "count-values",
+            "@comment": "Operation count-values counts variable matches and outputs the current number when it encounters @output:count:var:[...] tag.",
+            "@specs": {
+                "@var:department": [{
+                    "tel": [{
+                        "@count:var:tel": []
+                    }]
+                }],
+                "@output:count:var:tel": [{
+                    "@tag": ["tel-count"]
+                }]
+            }
+        },
+        {
+            "@operation": "take-values",
+            "@comment": "Now we have to take only the lower-level-contacts-count to the output.",
+            "@specs": {
+                "tel-count": []
+            }
+        }
+    ]
+}
