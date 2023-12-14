@@ -1,0 +1,18 @@
+{
+    "@operations": [{
+        "@operation": "shift-values",
+        "@comment": "Slightly more complex shift. Notice not mentioned keys move to the exact same position in the output.",
+        "@specs": {
+            "book": [{
+                "name": [{
+                    "cs": [{
+                        "@path": ["book", "name-cs"]
+                    }],
+                    "en": [{
+                        "@path": ["book", "name-en"]
+                    }]
+                }]
+            }]
+        }
+    }]
+}

@@ -1,0 +1,11 @@
+{
+    "@operations": [{
+        "@operation": "remove-values",
+        "@comment": "Basic remove transform example.",
+        "@specs": {
+            "book": [{
+                "author": []
+            }]
+        }
+    }]
+}

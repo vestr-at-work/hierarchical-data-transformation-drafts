@@ -1,0 +1,16 @@
+{
+    "@operations": [{
+        "@operation": "shift-values",
+        "@comment": "Basic shift transform example.",
+        "@specs": {
+            "book": [{
+                "name": [{
+                    "@path": ["title"]
+                }],
+                "year": [{
+                    "@path": ["release-date"]
+                }]
+            }]
+        }
+    }]
+}

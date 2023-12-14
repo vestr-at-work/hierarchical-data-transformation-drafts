@@ -30,7 +30,7 @@ Transformation specification:
                             "title": [{
                                 "@path": ["result.[].title"]
                             }],
-                            "@var::transport-group": [{
+                            "@output@var::transport-group": [{
                                 "@path": ["result.[].group"]
                             }]
                         }]

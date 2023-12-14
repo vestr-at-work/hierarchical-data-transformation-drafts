@@ -1,0 +1,13 @@
+{
+    "@operations": [{
+        "@operation": "shift-values",
+        "@comment": "Shift operation from array to new array with the usage of named variables. @var:item matches index of the array in the Unified Representation and uses it in the output array.",
+        "@specs": {
+            "@var:item": [{
+                "name": [{
+                    "@path": ["items", "@var:item", "name"]
+                }]
+            }]
+        }
+    }]
+}

@@ -1,0 +1,13 @@
+{
+    "@operations": [{
+        "@operation": "shift-values",
+        "@comment": "Shift operation to new array with the usage of named variables.",
+        "@specs": {
+            "@var:item": [{
+                "name": [{
+                    "@path": ["items", "@array"]
+                }]
+            }]
+        }
+    }]
+}

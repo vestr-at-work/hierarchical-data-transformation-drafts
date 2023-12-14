@@ -1,0 +1,13 @@
+{
+    "@operations": [{
+        "@operation": "shift-values",
+        "@comment": "Shift operation with the usage of named variables. Variables also used inside @path.",
+        "@specs": {
+            "@var:item": [{
+                "name": [{
+                    "@path": ["@var:item::name"]
+                }]
+            }]
+        }
+    }]
+}
