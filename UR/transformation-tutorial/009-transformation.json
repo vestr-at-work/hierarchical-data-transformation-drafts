@@ -1,0 +1,13 @@
+{
+    "@operations": [{
+        "@operation": "shift-values",
+        "@comment": "Shift operation to multiple positions of the output with the usage of named variables.",
+        "@specs": {
+            "@var:item": [{
+                "name": [{
+                    "@path": ["@var:item", "title", ",", "titles", "@array"]
+                }]
+            }]
+        }
+    }]
+}
