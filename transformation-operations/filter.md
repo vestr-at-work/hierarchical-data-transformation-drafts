@@ -49,4 +49,10 @@ Operace filter také podporuje pojmenované proměnné.
 }
 ```
 
-Nápady: Umožnit uživatelstvu, aby mohlo nějakým způsobem řetězit víc predikátů s jednou cestou. Nějak podporovat AND a OR.
+Nápady
+
+- Umožnit uživatelstvu, aby mohlo nějakým způsobem řetězit víc predikátů u jedné cesty. Nějak podporovat AND a OR.
+  
+- Přidat funkce. Např. len(@value) >= 2 atd.
+
+- Umožnit uživatelstvu používat regexy?
