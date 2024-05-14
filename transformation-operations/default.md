@@ -46,3 +46,15 @@ A i využívání hodnot proměnných ve "value" klíči.
     ]
 }
 ```
+
+----
+
+Výstup výše zmíněných operací je stejný jako vstup neboť klíč už existuje.
+
+```json
+{
+    "person": {
+        "name": "Ailish"
+    }
+}
+```

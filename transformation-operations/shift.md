@@ -17,6 +17,18 @@ Základní shift operace může vypadat následovně.
 }
 ```
 
+Výstup operace:
+
+```json
+{
+    "human": {
+        "name": "Ailish"
+    }
+}
+```
+
+---
+
 Pro vložení entit na konec pole se v cestě využívá symbol "[]".
 
 ```json
@@ -31,6 +43,18 @@ Pro vložení entit na konec pole se v cestě využívá symbol "[]".
     ]
 }
 ```
+
+Výstup operace:
+
+```json
+{
+    "human": {
+        "names": ["Ailish"]
+    }
+}
+```
+
+---
 
 Skutečná síla operace se projeví až po využití pojmenovaných proměnných. Ty se automaticky nahradí jakýmkoli klíčem pro který bude po nahrazení cesta do vstupní entity platná.
 
@@ -47,6 +71,18 @@ Skutečná síla operace se projeví až po využití pojmenovaných proměnnýc
 }
 ```
 
+Výstup operace:
+
+```json
+{
+    "entity": {
+        "names": ["Ailish"]
+    }
+}
+```
+
+---
+
 Následně lze také hodnota nahrazené proměnné využít i v cestách ve výstupní entitě.
 
 ```json
@@ -62,6 +98,18 @@ Následně lze také hodnota nahrazené proměnné využít i v cestách ve výs
 }
 ```
 
+Výstup operace:
+
+```json
+{
+    "human": {
+        "called": "Ailish"
+    }
+}
+```
+
+---
+
 A to i dokonce jen jako část klíče. Části před a po @var:jmeno-promenne: budou přeneseny na výstup.
 
 ```json
@@ -76,3 +124,15 @@ A to i dokonce jen jako část klíče. Části před a po @var:jmeno-promenne: 
     ]
 }
 ```
+
+Výstup operace:
+
+```json
+{
+    "named-person": {
+        "called": "Ailish"
+    }
+}
+```
+
+---

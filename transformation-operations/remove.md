@@ -29,3 +29,11 @@ Operace remove jako ostatní základní operace podporuje pojmenované proměnn�
     ]
 }
 ```
+
+----
+
+Výstup výše zmíněných operací je prázdný json objekt.
+
+```json
+{}
+```

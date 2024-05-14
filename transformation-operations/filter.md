@@ -49,6 +49,18 @@ Operace filter také podporuje pojmenované proměnné.
 }
 ```
 
+----
+
+Výstup výše zmíněných operací je stejný jako vstup neboť predikáty byly splněny.
+
+```json
+{
+    "person": {
+        "name": "Ailish"
+    }
+}
+```
+
 Nápady
 
 - Umožnit uživatelstvu, aby mohlo nějakým způsobem řetězit víc predikátů u jedné cesty. Nějak podporovat AND a OR.
